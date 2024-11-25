@@ -1,0 +1,9 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: Configuration
+metadata:
+  name: barauth-ace-config-cs
+  namespace: bo-tmp-ace-1
+spec:
+  description: configuration to access git repo where bars are located
+  secretName: abo-artifactory-ace
+  type: barauth
